@@ -1,0 +1,269 @@
+body {
+  color: #736748;
+  font-size: 25px;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+  border: 2px #736748 solid;
+
+}
+
+.container {
+
+  display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr;*/
+
+  box-shadow: 2px 1px 2px rgba(101, 74, 74, 0.8);
+}
+
+
+/* Grid layout */
+.grid-layout-header {
+  display: grid;
+  grid-template-columns: 230px 1fr 1fr;
+  height: 200px;
+  box-shadow: 2px 2px 4px rgba(99, 77, 77, 0.8);
+  background-color: #e0dfdc;
+
+
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 230px auto;
+  /* min-height: 100vh;*/
+
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #cfc4a9;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  box-shadow: 1px 2px 4px rgba(107, 79, 79, 0.8);
+}
+
+.sidebar-logo {
+
+  color: white;
+  padding: 20px;
+
+}
+
+.sidebar .logo {
+  font-family: 'Edu VIC WA NT Hand', cursive;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.sidebar-logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 0.5px solid #736748;
+  box-shadow: 0 4px 10px rgba(126, 98, 98, 0.2);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-bar-div ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 10px;
+  gap: 15px;
+
+}
+
+.search-bar-div a {
+  text-decoration: none;
+  color: #736748;
+}
+
+.social-icon {
+  font-size: 25px;
+  color: #3b5998;
+  /* Facebook blue */
+  text-decoration: none;
+}
+
+.search-bar-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /*  gap: 20px;*/
+  padding: 10px;
+}
+
+.heading h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 30px;
+
+}
+
+.heading p {
+  word-spacing: 5px;
+  color: #736748;
+  font-size: 20px;
+  text-align: right;
+}
+
+h3 {
+  text-align: center;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: #666;
+  text-align: right;
+  padding-right: 200px;
+  padding-top: 0;
+}
+
+.quote {
+  border: 1px solid #736748;
+  border-radius: 30px;
+  word-spacing: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  background-color: #f8f6f2;
+}
+
+.home-quote {
+
+  background-color: #f5f2ea;
+  /*  border-left: 2px solid #736748;*/
+  font-style: italic;
+  box-shadow: 0 2px 4px rgba(0.8, 0, 0, 0.8);
+  padding: 20px;
+}
+
+.home-list {
+  list-style: none;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 100px;
+
+
+}
+
+.home-list img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 25px;
+
+}
+
+.home-list a {
+  text-decoration: none;
+  color: #736748;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  max-width: 100px;
+}
+
+.categories-list {
+  background-color: #cfc4a9;
+  color: #736748;
+  padding: 20px;
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+
+.categories-list a {
+  background-color: #cfc4a9;
+  color: #736748;
+  list-style: none;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+
+.categories-list.hidden {
+  display: none;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  user-select: none;
+  background-color: #cfc4a9;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.footer-div {
+
+  background-color: #e0dfdc;
+  max-width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 4px rgba(88, 77, 77, 0.8);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+}
+
+.footer-div ul {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left-end;
+  gap: 20px;
+
+
+}
+
+.footer-div a {
+  text-decoration: none;
+  color: #736748;
+  font-size: 15px;
+
+}
+
+
+.footer-end {
+  display: inline;
+  text-align: right;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  word-spacing: 5px;
+
+}
+
+.subscribe {
+
+  background-color: #cfc4a9;
+  border-radius: 20px;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+}

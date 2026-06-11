@@ -1,0 +1,182 @@
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #f5f2ea;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.blog-description {
+    flex: 1;
+}
+
+.blog-description h3 {
+    margin: 0 0 8px;
+    color: #736748;
+}
+
+.blog-description p {
+    margin: 0;
+    color: #736748;
+    word-spacing: 2px;
+}
+
+.blog-list a {
+    color: #736748;
+}
+
+.people-list {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 80px;
+    word-spacing: 2px;
+}
+
+.people-list a {
+    text-decoration: none;
+    color: #736748;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+
+    max-width: 500px;
+
+
+}
+
+.people-list img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.people-image {
+    display: inline-block;
+}
+
+.contact-form {
+    border: 2px solid #736748;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Edu VIC WA NT Hand', cursive;
+    color: #736748;
+    background-color: #f9f9f6;
+    margin: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    border: 1px solid #736748;
+    padding: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    color: #736748;
+    background-color: #fff;
+}
+
+.contact-form button {
+    background-color: #736748;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #5f593d;
+}
+
+.about-me {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Edu VIC WA NT Hand', cursive;
+    color: #736748;
+    border: 2px solid #736748;
+    border-radius: 10px;
+    background-color: #f8f6f2;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+.about-me h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.privacy-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Edu VIC WA NT Hand', cursive;
+    color: #736748;
+    border: 2px solid #736748;
+    border-radius: 12px;
+    background-color: #f9f7f3;
+}
+
+.privacy-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.privacy-content {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding-right: 15px;
+    line-height: 1.7;
+}
+
+.privacy-content p {
+    margin-bottom: 15px;
+}
+
+.disclosure-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Edu VIC WA NT Hand', cursive;
+    color: #736748;
+    border: 2px solid #736748;
+    border-radius: 12px;
+    background-color: #f9f7f3;
+}
+
+.disclosure-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.disclosure-content {
+    line-height: 1.7;
+    word-spacing: 3px;
+}
+
+.disclosure-content a {
+    color: #736748;
+    text-decoration: underline;
+}

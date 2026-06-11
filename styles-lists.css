@@ -1,0 +1,457 @@
+.home-list-recipes {
+  list-style: none;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 80px;
+
+}
+
+.home-list-recipes img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.home-list-recipes a {
+  text-decoration: none;
+  color: #736748;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  max-width: 100px;
+}
+
+
+.categories-list {
+  background-color: #cfc4a9;
+  color: #736748;
+  padding: 20px;
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+
+.categories-list.hidden {
+  display: none;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  user-select: none;
+  background-color: #cfc4a9;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.recipe-quote-div {
+
+  background-color: #f5f2ea;
+  /*  border-left: 2px solid #736748;*/
+  font-style: italic;
+  box-shadow: 0 2px 4px rgba(0.8, 0, 0, 0.8);
+  padding: 20px;
+}
+
+.back-link {
+
+  color: #736748;
+  text-decoration: none;
+  padding: 5px;
+
+
+}
+
+.quote-recipe {
+  border: 1px solid #736748;
+  border-radius: 30px;
+  word-spacing: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  background-color: #f8f6f2;
+}
+
+.recipe-list {
+  list-style: none;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 100px;
+
+
+}
+
+.recipe-list img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 25px;
+
+}
+
+.recipe-list a {
+  text-decoration: none;
+  color: #736748;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  max-width: 100px;
+}
+
+.book-quote-div {
+
+  background-color: #f5f2ea;
+  /*  border-left: 2px solid #736748;*/
+  font-style: italic;
+  box-shadow: 0 2px 4px rgba(0.8, 0, 0, 0.8);
+  padding: 20px;
+}
+
+.quote-book {
+  border: 1px solid #736748;
+  border-radius: 30px;
+  word-spacing: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  background-color: #f8f6f2;
+}
+
+.book-list {
+  list-style: none;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 100px;
+
+
+}
+
+.book-list img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 25px;
+
+}
+
+.book-list a {
+  text-decoration: none;
+  color: #736748;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  max-width: 100px;
+}
+
+.bio-list {
+  list-style: none;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 100px;
+
+}
+
+.bio-list img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 2px solid #736748;
+}
+
+.bio-quote-div {
+
+  background-color: #f5f2ea;
+  /*  border-left: 2px solid #736748;*/
+  font-style: italic;
+  box-shadow: 0 2px 4px rgba(0.8, 0, 0, 0.8);
+  padding: 20px;
+
+}
+
+.bio-quote {
+
+  /* border: 1px solid #736748;*/
+  border-bottom: 2px solid #736748;
+  ;
+  padding-bottom: 5px;
+  word-spacing: 5px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  font-size: 20px;
+
+
+
+}
+
+.image-link-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-link-container img {
+  display: block;
+  width: 200px;
+  height: 200px;
+
+}
+
+.visit-us-overlay {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  transform: translate(-90%, -80%);
+  background-color: white;
+  border: 2px solid #b83390;
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: sans-serif;
+  white-space: nowrap;
+}
+
+.visit-us-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.home-ad-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+
+.home-ad-container img {
+  display: block;
+  width: 100%;
+  height: 300px;
+
+}
+
+
+
+.upcycle-ad {
+
+  padding: 15px;
+  width: 800px;
+  margin: 20px auto;
+
+  background-color: #f9f9f7;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+  color: #176de6;
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.upcycle-p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  word-spacing: 3px;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+}
+
+.upcycle-ad-container {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}
+
+.upcycle-main-image {
+  width: 100%;
+  border: 2px solid #736748;
+
+}
+
+.upcycle-visit-us-overlay {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #176de6;
+  ;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+
+  pointer-events: none;
+
+}
+
+.upcycle-visit-us-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.recycle-ad {
+
+  padding: 15px;
+  width: 1000px;
+
+  margin: 20px auto;
+
+  background-color: #f9f9f7;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+  color: #238009;
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.recycle-p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  word-spacing: 3px;
+  width: 200px;
+
+}
+
+.recycle-ad-container {
+  position: relative;
+  display: inline-block;
+  width: 800px;
+
+  text-align: center;
+  margin-left: 100px;
+}
+
+.recycle-main-image {
+  width: 100%;
+  height: 250px;
+  border: 2px solid #736748;
+
+}
+
+.recycle-visit-us-overlay {
+  position: absolute;
+  top: 60%;
+  right: 40%;
+  transform: translate(-60%, -40%);
+  background-color: #cfdbc1;
+  border: 4px solid white;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+  color: #238009;
+  padding: 6px 12px;
+
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none;
+  border-radius: 5px;
+  text-decoration: none;
+  white-space: nowrap;
+
+}
+
+.recycle-visit-us-overlay:hover {
+  background-color: rgba(84, 185, 119, 0.8);
+  color: white;
+}
+
+.pic-ad-div {
+  position: relative;
+  text-align: center;
+  width: 200px;
+  padding: 0;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.pic-main-image {
+  width: 100%;
+  height: 250px;
+
+
+}
+
+.pic-visit-us-overlay {
+  position: absolute;
+  top: 60%;
+  right: 40%;
+  background-color: #cfdbc1;
+  border: 4px solid #238009;
+  font-family: 'Edu VIC WA NT Hand', cursive;
+  color: #238009;
+  padding: 6px 12px;
+
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none;
+
+  text-decoration: none;
+  white-space: nowrap;
+  transform: translate(-60%, -40%);
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+
+.pic-visit-us-overlay:hover {
+  background-color: rgba(84, 185, 119, 0.8);
+  color: white;
+}
+
+
+.kairos-ad-div {
+  position: relative;
+  text-align: center;
+  width: 210px;
+  padding: 0;
+  margin: 0;
+}
+
+.kairos-main-image {
+  width: 100%;
+  height: 300px;
+
+
+}
+
+.tourist-ad-div {
+  position: relative;
+  text-align: center;
+  width: 180px;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.tourist-main-image {
+  width: 100%;
+  height: 500px;
+
+
+}
